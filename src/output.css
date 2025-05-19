@@ -562,6 +562,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .top-\[\] {
   top: ;
 }
@@ -634,12 +638,28 @@ video {
   width: 25%;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-start {
   justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -670,6 +690,10 @@ video {
   gap: 50px;
 }
 
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -680,6 +704,10 @@ video {
 
 .rounded-\[50px\] {
   border-radius: 50px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
 }
 
 .border {
@@ -699,6 +727,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
+.border-\[gray\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(128 128 128 / var(--tw-border-opacity, 1));
+}
+
 .bg-\[white\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
@@ -707,6 +740,39 @@ video {
 .bg-\[\#E6514A\] {
   --tw-bg-opacity: 1;
   background-color: rgb(230 81 74 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#3035C3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 53 195 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/src\'\)\] {
+  background-image: url('/src');
+}
+
+.bg-\[url\(\'\/src\/rec\'\)\] {
+  background-image: url('/src/rec');
+}
+
+.bg-\[url\(\'\/src\/rect\'\)\] {
+  background-image: url('/src/rect');
+}
+
+.bg-\[url\(\'\/src\/\'\)\] {
+  background-image: url('/src/');
+}
+
+.bg-\[url\(\'\/src\/src\/bg1\.png\'\)\] {
+  background-image: url('/src/src/bg1.png');
+}
+
+.bg-\[url\(\'\/src\/bg1\.png\'\)\] {
+  background-image: url('/src/bg1.png');
 }
 
 .p-10 {
@@ -723,6 +789,10 @@ video {
 
 .p-\[10px\] {
   padding: 10px;
+}
+
+.p-\[40px\] {
+  padding: 40px;
 }
 
 .px-10 {
@@ -766,6 +836,16 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
